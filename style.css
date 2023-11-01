@@ -1,0 +1,20 @@
+.style-img {
+    height: 180px;
+    width: 295px;
+    margin: 7px;
+    border-radius: 5%;
+    transition: transform 0.3s; /* Add a transition for the transform property */
+}
+
+.style-img:hover {
+    transform: scale(1.05); /* Increase the size a bit when hovering */
+}
+
+#heading1, #heading2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: beige;
+}
